@@ -1,0 +1,15 @@
+<html>
+  <head> </head>
+  <body>
+    <h1>The length of the text is {{count}}</h1>
+    <h4>This is entered text:</h4>
+    <p>{{fulltext}}</p>
+    {% for word, count in wordDictionary %}
+    <br />
+    {{word}}
+    <br />
+    {{count}}
+    <br />
+    <br />{% endfor %}
+  </body>
+</html>
